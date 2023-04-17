@@ -44,11 +44,38 @@
      </section>
     </section>
    </fieldset>
+
 </form>
 </main>
 <footer> <!--Rodapé--> </footer>
 
 
+<p>sexo</p>
+<input type="radio" name="genero" id="
+feminino" value="feminino" required>
+<label for="feminino">Feminino</label>
+<br>
+
+
+<input type="radio" name="genero" id="
+masculino" value="masculino" required>
+<label for="masculino">Masculino</label>
+<br>
+
+
+<input type="radio" name="genero" id="
+outro" value="outro" required>
+<label for="outro">Outro</label>
+<br><br>
+
+<label for="data_nascimento"><strong>
+Data de nascimento<</strong></label>
+<input type="date" name="
+data_nascimento" id="data_nascimento"
+required>
+<br><br><br>
+
 
 </body>
 </html>
+</fieldset>     
