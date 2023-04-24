@@ -40,3 +40,11 @@ inputUser{
     width: 100%;
     letter-spacing: 2px;
 }
+
+.labelinput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: 5px
+}
