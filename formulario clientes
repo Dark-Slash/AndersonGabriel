@@ -21,7 +21,7 @@
                     <strong><legend>
                         Formulário de clientes
                     </legend></strong>
-     <section>
+     <section class="inputBox">
         <input type="text" name="nome" id="name"
         class="input" required>
         <label for="name" class="labelinput">Nome completo</label>
@@ -29,7 +29,7 @@
 
      <br><br>
 
-     <section>
+     <section class="inputBox">
         <input type="text" name="email" id="email"
         class="inputUser" required>
         <label for="email" class="labelinput">Email</label>
@@ -37,7 +37,7 @@
 
      <br><br>
 
-     <section>
+     <section class="inputBox">
         <input type="text" name="telefone" id="telefone"
         class="inputUser" required>
         <label for="telefone" class="labelinput">Telefone</label>
@@ -68,7 +68,7 @@
         required>
         <br><br><br>
         
-        <section>
+        <section class="inputBox">
             <input type="text" name="cidade" id="cidade"
             class="inputUser" required>
             <label for="cidade" class="labelinput">Cidade
@@ -77,7 +77,7 @@
         </section>
         <br><br>
         
-        <section>
+        <section class="inputBox">
             <input type="text" name="estado" id="estado"
             class="inputUser" required>
             <label for="estado" class="labelinput">Estado
@@ -87,7 +87,7 @@
         
         <br><br>
         
-        <section>
+        <section class="inputBox">
             <input type="text" name="endereco" id="
             endereco" class="inputUser" required>
             <label for="endereco" class="labelinput">
