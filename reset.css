@@ -1,0 +1,121 @@
+header {
+  background-color: black;
+
+}
+#logo{
+    border-radius: 30px;
+    width: 250px;
+    height: 250px;
+    
+}
+.titulo-principal{
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-30%, -15%);
+    font-size: 35px;
+    font-family:'WrathStyles', sem serifa;
+    color: aliceblue;
+    text-shadow: 
+                            -1px -1px 0px #5f5b52,
+                            -1px 4px 0px #FFF,
+                            -1px -1px 0px #FFF,
+                            -1px 0px 0px #FFF;
+}
+
+nav{
+    position: absolute;
+    top: 180 px;
+    right: 50px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: blue
+    font-size: 22px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@font-face {
+    font-family:'WrathStyles', sem serifa ;
+    src: url(WrathStyles.ttf);
+}
+
+main{
+    width: 940px;
+    margin: auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+
+}
+
+#logo1{
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+}
+    
+.letra{
+    color: aliceblue;
+    text-align: center;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px px;
+
+    width: 50%;
+}
+input ::placeholder{
+    color: #5f5b52;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+ 
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background:rgb(172, 102, 102);
+    color: blue
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer; 
+}
+
+.enviar:hover{
+    background-color:gray;
+    transform: scale(1.2);
+}
+
+.copyright{
+    color:aliceblue;
+    font-size: 13px;
+    margin: 10px 0 0;
+}
+
+footer{
+    text-align: center;
+    padding: 10px 0;
+    background: rgb(172, 102, 102);
+    
+
+}
